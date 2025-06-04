@@ -262,8 +262,7 @@ function CmjToPlatoText(cmjMessages) {
   cmjMessages.forEach(message => {
     // Ensure the message object has the expected 'name' and 'content' properties
     if (message && typeof message.name === 'string' && typeof message.content === 'string') {
-      const speaker = message.name.trim(); // Trim individual parts for cleanliness
-
+      const speaker = message.name.trim();
       // Normalize newlines within the LLM's utterance:
       // - Convert sequences of two or more newlines to '\n\t'
       //   to match platoText's internal paragraph formatting.
