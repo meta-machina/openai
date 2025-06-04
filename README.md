@@ -1,2 +1,1 @@
-# webmachine template for openai.
-Template for webmachine pages
+### webmachine template for openai.
