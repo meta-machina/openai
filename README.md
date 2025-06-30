@@ -1,1 +1,1 @@
-### Thingking Machine (openai)
+### webmachine template (openai)
